@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div id="container">
 
-    <div class="sidebar">
-      <a class="dashboard" href="index.html">
+    <div id="sidebar">
+      <a id="dashboard" href="index.html">
         <img src="assets/icons/dashboard.svg" alt="dashboard-icon">
-        <div class="dashboard-text">Dashboard</div>
+        <div id="dashboard-text">Dashboard</div>
       </a>
-      <div class="profile-links">
+      <div id="profile-links">
         <a href="index.html" class="dash-link">
           <img src="assets/icons/home.svg" alt="home-icon">
           <div class="dash-text">Home</div>
@@ -41,7 +41,7 @@
           <div class="dash-text">Communities</div>
         </a>
       </div>
-      <div class="website-links">
+      <div id="website-links">
         <a href="index.html" class="dash-link">
           <img src="assets/icons/settings.svg" alt="settings-icon">
           <div class="dash-text">Settings</div>
@@ -57,31 +57,117 @@
       </div>
     </div>
 
-    <div class="main">
-      <div class="header">
-        <form class="search" action="index.html" method="post">
+    <div id="main">
+      <div id="header">
+        <form id="search" action="index.html" method="post">
           <input type="image" src="assets/icons/search.svg" alt="search-icon">
           <input id="searchbar" type="search">
         </form>
-        <div class="profile">
+        <div id="profile">
           <img src="assets/icons/notification.svg" alt="notification-icon">
           <img src="assets/avatars/basketball.png" alt="avatar">
           <div class="username">Robert Neal</div>
         </div>
-       <div class="welcome">
+       <div id="welcome">
          <img src="assets/avatars/basketball.png" alt="avatar">
-         <div class="greeting">Hi there,</div>
+         <div id="greeting">Hi there,</div>
          <div class="username">Robert Neal (@bert)</div>
        </div>
-       <div class="actions">
+       <div id="actions">
           <a class="button" href="index.html">New</a>
           <a class="button" href="index.html">Upload</a>
           <a class="button" href="index.html">Share</a>
        </div>
       </div>
 
-      <div class="items">
-
+      <div id="items">
+        <div id="projects-container">
+          <div id="header-projects">Your Projects</div>
+          <div id="projects">
+            <div class="project">
+              <div class="project-title">Best Project</div>
+              <div class="project-body">Have you ever seen a project so amazing? Truly my best work ever and I cannot wait for world domination.</div>
+              <div class="project-icons">
+                <img src="assets/icons/favorite.svg" alt="favorites">
+                <img src="assets/icons/watch.svg" alt="watch">
+                <img src="assets/icons/share.svg" alt="share">
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title">Great Project</div>
+              <div class="project-body">Near perfection, but has some slight room for improvement. Excellent features, aesthetics need some work.</div>
+              <div class="project-icons">
+                <img src="assets/icons/favorite.svg" alt="favorites">
+                <img src="assets/icons/watch.svg" alt="watch">
+                <img src="assets/icons/share.svg" alt="share">
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title">Good Project</div>
+              <div class="project-body">Solid start, but features need some expanding for sure.</div>
+              <div class="project-icons">
+                <img src="assets/icons/favorite.svg" alt="favorites">
+                <img src="assets/icons/watch.svg" alt="watch">
+                <img src="assets/icons/share.svg" alt="share">
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title">Okay Project</div>
+              <div class="project-body">Work in progress. 5/10 features complete, maybe more to come. Ugly as shit still, but that is a later problem.</div>
+              <div class="project-icons">
+                <img src="assets/icons/favorite.svg" alt="favorites">
+                <img src="assets/icons/watch.svg" alt="watch">
+                <img src="assets/icons/share.svg" alt="share">
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title">Bad Project</div>
+              <div class="project-body">Honestly not my best work. Features are broken and it is (surprise!) terrible to look at. Might delete this. </div>
+              <div class="project-icons">
+                <img src="assets/icons/favorite.svg" alt="favorites">
+                <img src="assets/icons/watch.svg" alt="watch">
+                <img src="assets/icons/share.svg" alt="share">
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title">Worst Project</div>
+              <div class="project-body">Embarrassing, really.</div>
+              <div class="project-icons">
+                <img src="assets/icons/favorite.svg" alt="favorites">
+                <img src="assets/icons/watch.svg" alt="watch">
+                <img src="assets/icons/share.svg" alt="share">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right-sidebar">
+          <div id="announcements-container">
+            <div id="header-announcements">Announcements</div>
+            <div id="announcements">
+              <div class="announcement">
+                <div class="announcement-title">Site Maintenance</div>
+                <div class="announcement-body">Website is going to be down again. Isn't that SHOCKING?</div>
+              </div>
+              <div class="announcement" id="announcement-middle">
+                <div class="announcement-title">Free Beer Day</div>
+                <div class="announcement-body">Exciting news! Tomorrow is Free Beer Day! All you have to do is buy me a beer.</div>
+              </div>
+              <div class="announcement">
+                <div class="announcement-title">Welcome!</div>
+                <div class="announcement-body">Welcome to my new website, hope you enjoy poking around!</div>
+              </div>
+            </div>
+          </div>
+          <div id="trending-container">
+            <div id="header-trending">Trending</div>
+            <div id="trending">
+              <div class="account">Account 1</div>
+              <div class="account">Account 2</div>
+              <div class="account">Account 3</div>
+              <div class="account">Account 4</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
