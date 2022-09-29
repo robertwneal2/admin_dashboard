@@ -229,15 +229,12 @@ input:focus {
 }
 
 .project-title {
+  font-size: 18px;
   font-weight: 600;
 }
 
-.project-body {
-
-}
-
 .project-icons {
-  justify-self: ;
+  justify-self: end;
 }
 
 .project img {
@@ -282,13 +279,39 @@ input:focus {
 #announcement-middle {
   border-top: 1px solid var(--light-gray);
   border-bottom: 1px solid var(--light-gray);
-  out
-}
 
-#trending {
-  display: grid;
 }
 
 #trending-container {
+  grid-row: 2 / span 1;
+}
+
+#trending {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.account {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 2em 3fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 10px;
+}
+
+.account img {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+  height: 2em;
+}
+
+.handle {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.account .username {
+  grid-column: 2 / span 1;
   grid-row: 2 / span 1;
 }
